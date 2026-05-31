@@ -1,0 +1,24 @@
+[10]
+item-type=0
+display-name=Healthy App Entry
+secret=SuperSecureSecretToken123
+
+[10:attribute0]
+name=application
+type=string
+value=my-clean-app
+
+[14]
+item-type=0
+display-name=Target App For Corruption
+secret={"token": "valid_json_here"}
+
+[14:attribute0]
+name=application
+type=string
+value=TargetApp
+
+[15]
+item-type=0
+display-name=Another Healthy App
+secret=AnotherToken456

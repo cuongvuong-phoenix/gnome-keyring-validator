@@ -1,0 +1,31 @@
+[10]
+item-type=0
+display-name=Healthy App Entry
+secret=SuperSecureSecretToken123
+
+[10:attribute0]
+name=application
+type=string
+value=my-clean-app
+
+[14]
+item-type=0
+display-name=Target App For Corruption
+secret={"token": "bad_line_break",
+"corrupted_subkey": "values"}
+
+[14:attribute0]
+name=application
+type=string
+value=TargetApp
+
+[15]
+item-type=0
+display-name=Another Healthy App
+secret={"token": "good_line_break", "subkey": "values"}
+
+[15:attribute0]
+name=application
+type=string
+value={"token": "bad_line_break",
+"corrupted_subkey": "values"}
